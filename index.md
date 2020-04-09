@@ -25,12 +25,15 @@ Another important step to understanding the data you are handling is thinking ab
 
 To assess this in our dataset, we first looked at the frequency distribution of SalePrice. This shows us what sale prices are common and which are not. For example, we can see that prices between $100,000 and $300,000 are quite common whereas prices over $400,000 are very uncommon:
 
+![Screen Shot 2020-04-09 at 4 47 24 PM](https://media.github.students.cs.ubc.ca/user/7101/files/239c3b80-7a82-11ea-8209-05eccd98bc78)
+
 Though these high values are quite uncommon, they are not separated from the rest of the distribution - for this reason, we will not treat them as outliers for this analysis. 
 
 Another way to explore outliers is to look at the relationship between an explanatory variable (a variable that contributes to our prediction in some way) and the response variable (the thing we are trying to predict - in our case, SalePrice). For instance, looking at GrLivArea (square footage of above-ground living area) versus SalePrice:
 
+![Screen Shot 2020-04-09 at 4 48 20 PM](https://media.github.students.cs.ubc.ca/user/7101/files/42023700-7a82-11ea-97d8-76f57f228cee)
 
-We can see there are some outliers to the far right that do not seem to follow the general trend We can see there are some outliers to the far right that do not seem to follow the general trend of the rest of the data. Is this a problem though? How much does this actually influence our prediction? To assess the impact of these outliers, we can simply calculate what the mean and variance of the GrLivArea data are with and without the outliers. It turns out, with the outliers, the mean of GrLivArea is about 1515.4637 sq.ft., and the variance is about 525.4804. Without the outliers, the mean is again about 1502.7688 sq.ft., and the variance is about 494.5385. We can see that the outliers do not influence these values very much so we do not need to be concerned about them. 
+We can see there are some outliers to the far right that do not seem to follow the general trend We can see there are some outliers to the far right that do not seem to follow the general trend of the rest of the data. Is this a problem though? How much does this actually influence our prediction? To assess the impact of these outliers, we can simply calculate what the mean and variance of the GrLivArea data are with and without the outliers. It turns out, with the outliers, the mean of GrLivArea is about 1520.8973 sq.ft., and the variance is about 537.1106. Without the outliers, the mean is again about 1509.7062 sq.ft., and the variance is about 501.9618. We can see that the outliers do not influence these values very much so we are not too concerned about them. 
 
 Another important step that will prepare us for the training of machine learning models is preprocessing our data. Preprocessing entails reformatting categorical variables, scaling numerical variables, and handling missing values. Without going into too much detail, our preprocessing involved all of these aspects. This is an important step to ensure our model can handle and pull as much information as possible from our data. 
 
