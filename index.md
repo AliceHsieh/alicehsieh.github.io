@@ -15,8 +15,11 @@ One approach to predicting house prices is using machine learning. Machine learn
 
 To address this problem, we chose to use the [Kaggle House Pricing Dataset](https://www.kaggle.com/c/home-data-for-ml-course/overview), which includes variables such as SalePrice (the property’s sale price in dollars - these are our ‘answers’), different variables representing the size and shape of the property, what types and how many rooms the building has, whether it has road access, the neighbourhood, type of building, location with respect to main roads and/or railroads, various aspects of the materials used to build the house, the year built and/or remodelled and the current condition. Here is a sneak peek at the first few rows of this dataset:
 
+![image](https://media.github.students.cs.ubc.ca/user/7101/files/1f641580-79d1-11ea-84b1-3a2453ac1781)
 
 Additionally, here is a quick summary of our data including important information, such as missing cells (entries that have been left blank), and how many data points we have: 
+
+![Screen Shot 2020-04-07 at 5 36 04 PM](https://media.github.students.cs.ubc.ca/user/7101/files/3efb3e00-79d1-11ea-8f77-e76fdb6cf1e9)
 
 Another important step to understanding the data you are handling is thinking about outliers. Outliers are data points that lie far outside the common ranges seen in your dataset. For example, if you have a set of ten people and their heights, nine of which are within 5’4” and 6’1”, and one of which is 7’0”, the 7-foot tall person is an outlier. 
 
