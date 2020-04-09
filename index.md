@@ -25,7 +25,7 @@ Another important step to understanding the data you are handling is thinking ab
 
 To assess this in our dataset, we first looked at the frequency distribution of SalePrice. This shows us what sale prices are common and which are not. For example, we can see that prices between $100,000 and $300,000 are quite common whereas prices over $400,000 are very uncommon:
 
-![Screen Shot 2020-04-09 at 4 47 24 PM](https://media.github.students.cs.ubc.ca/user/7101/files/239c3b80-7a82-11ea-8209-05eccd98bc78)
+![Screen Shot 2020-04-09 at 4 51 43 PM](https://media.github.students.cs.ubc.ca/user/7101/files/6c53f480-7a82-11ea-968b-c247ea054b6a)
 
 Though these high values are quite uncommon, they are not separated from the rest of the distribution - for this reason, we will not treat them as outliers for this analysis. 
 
